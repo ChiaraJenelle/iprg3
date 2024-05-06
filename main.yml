@@ -1,0 +1,20 @@
+image: android:latest  # Use the latest Android image
+
+stages:
+  - build
+  - test  # Optional stage for unit tests (not included in provided code)
+
+build:
+  stage: build
+  script:
+    - gradlew clean assembleDebug  # Clean and build the project (replace with your build command if different)
+
+artifacts:
+  paths:
+    - app/build/outputs/apk/debug/app-debug.apk  # Save the built APK
+
+# Optional test stage (requires additional configuration for testing libraries)
+# test:
+#   stage: test
+#   script:
+#     - ...  # Add commands for running unit tests
