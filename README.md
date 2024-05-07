@@ -35,3 +35,13 @@ STOP
 
 
 flowchart
+
+![image](https://github.com/ChiaraJenelle/iprg3/assets/163857396/07aed3bc-8336-45b1-99eb-154c9facc3ae)
+
+
+
+demonstration video 
+
+https://youtube.com/shorts/n4NiU7Cq_3g 
+
+
