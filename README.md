@@ -38,11 +38,11 @@ LET minutes = totalMinutes MOD 60
 
 IF totalMinutes > 60 THEN
 
-    LET totalPrice = (rentPerHour * hours) + (rentPerMinute * minutes)
+   LET totalPrice = (rentPerHour * hours) + (rentPerMinute * minutes)
     
 ELSE
 
-    LET totalPrice = rentPerHour * hours 
+   LET totalPrice = rentPerHour * hours 
     
 ENDIF 
 
